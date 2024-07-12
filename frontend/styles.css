@@ -1,0 +1,97 @@
+.signUp {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-group button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.button-group button:hover {
+  background-color: #0056b3;
+}
+
+.message-strip {
+  margin-bottom: 15px;
+  padding: 10px;
+  color: white;
+  display: none;
+  border-radius: 5px;
+}
+
+.message-strip.error {
+  background-color: #ff4c4c;
+}
+
+.message-strip.success {
+  background-color: #4caf50;
+}
+#createAccount {
+  background-color: #51ce70;
+}
+#createAccount:hover {
+  background-color: #00a400;
+}
+#dump {
+  display: block;
+  unicode-bidi: isolate;
+}
+#myfeedsPg {
+  background-color: black;
+  color: #fff;
+}
